@@ -1,0 +1,9 @@
+name: yolo_v3_object_detection
+dependencies:
+  - python==3.6.6
+  - anaconda
+  - pip
+  - pip:
+    - -r requirements.txt
+  - conda:
+    - cudatoolkit==11.3.1
